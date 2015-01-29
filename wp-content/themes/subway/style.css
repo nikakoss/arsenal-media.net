@@ -1,0 +1,109 @@
+/*
+Theme Name: Subway
+Theme URI: http://demo.qodeinteractive.com/subway/
+Description: Subway Theme
+Tags: business, clean, multi-purpose, retina, responsive, wpml, corporate, clean, parallax, shop, woo commerce, modern, interactive, blog, mega menu
+Author: Qode Interactive
+Author URI: http://www.qodeinteractive.com/
+Version: 1.2
+License: GNU General Public License
+License URI: licence/GPL.txt
+
+*/
+.content {
+  margin-top: 69px !important;
+}
+.modal_form .alert {
+  background: none repeat scroll 0 0 rgba(255, 255, 255, 0.8);
+  bottom: 0;
+  font-weight: bold;
+  padding: 3px 0 33px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+.single_add_to_cart_button.button.alt {
+  color: #fff;
+}
+.woocommerce ul.products li.product h3 {
+  min-height: 44px;
+}
+/*
+CSS changes can be made in files in the /css/ folder. This is a placeholder file required by WordPress, so do not delete it.
+
+Changelog
+
+1.2
+- Added WooCommerce 2.2 compatibility
+- Improved Expandable shortcode
+- Improved page transition to register page loading with Google Analytics
+- Updated LayerSlider to version 5.2.0
+- Fixed facebook share for language with special character
+- Fixed dropdown menu position when boxed layout is enabled
+- Fixed bug with related products for WooCommerce
+- Fixed bug with don't link option for menu items and page transitions
+- Fixed bug with click event with ctrl key pressed and page transitions
+
+1.1
+- Updated Visual Composer to Version 4.1.2 with custom work by Qode
+- Updated LayerSlider to version 5.1.1
+- Updated translation files
+- Updated Sorting of font awesome icons array
+- Fixed WP 3.9 Qode Shortcodes bug
+- Fixed WP 3.9 Qode Options image browser field bug
+- Fixed WooCommerce checkout fields translation
+- Fixed paddings on box shortcode
+
+1.0.5
+- Added WooCommerce 2.1 integration(from this version our theme is compatible only with WC 2.1+)
+- Updated label translation files
+- Fixed responsive footer columns margins
+- Fixed a bug with latest blog shortcode regarding localization of the post dates
+- Fixed some minor bugs with anchor active class
+- Fixed bug with Visual Composer css loading
+- Fixed Google font inclusion bug
+- Fixed blog masonry layout
+- Fixed background color changing for "add to cart button" on single product page
+- Fixed section overlaping separator with icon
+- Fixed 'qode like' functionality on portfolios that are inerted via 'load more' functions
+
+1.0.4
+- Added anchor functionality on parallax sections, custom links (manualy added class needed) and buttons
+- Added video background functionality on sections
+- Updated smooth scroll on/off logic to choose between all devices and all without Mac devices (all devices are not including touch devices)
+- Improved logo resize logic
+- Improved mobile menu logic, now closing on menu item click
+- Fixed side menu opening with ajax animations
+- Fixed 404 page subtitle
+- Fixed add to cart background color when main color is changed
+- Fixed cart table background color when main color is changed
+- Fixed deliting of custom sidebars
+- Fixed margin for last child of custom menu widget in side area 
+- Fixed steps attributes for line graph shortcode in Visual Composer
+- Fixed portfolio list for new version of Chrome
+- Fixed category attribute in latest posts shortcode
+- Fixed centering of portfolio item's features in portfolio lists
+- Fixed anchor logic when ajax loader is not on
+- Fixed anchor hash changing on same page
+- Fixed responsive header background color
+
+1.0.3
+- Added "Center logo" functionality
+- Added "Main Menu One Page Site" functionality (via anchors)
+- Added link and target attributes for Steps shortcode
+- Fixed portfolio list load more on home page
+- Fixed "Hide featured image" bug on single blog
+- Fixed breadcrumbs label translation
+
+1.0.2
+- Updated LayerSlider to version 4.6.5
+
+1.0.1
+- Updated wpml-config.xml file
+- Updated functions.php not to require allow_url_fopen=1 php.ini variable
+- Fixed cover boxes shortcode buttons link
+- Fixed site width on touch devices when responsiveness is turned off
+- Fixed border line for masonry audio article
+- Fixed toggle shortcode
+
+*/
